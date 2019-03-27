@@ -1,0 +1,29 @@
+#修改linux主机名
+vim /etc/hostname
+
+#安装yum命令
+https://juejin.im/post/5c6b62caf265da2dd94c9e79
+
+#安装rz、sz命令
+yum -y install lrzsz
+
+#安装lnmp
+https://www.cnblogs.com/houziyu/articles/8467747.html
+
+#安装memcache
+https://blog.csdn.net/m0_37971044/article/details/82906156
+
+#设置mysql访问权限
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+#刷新权限
+flush privileges;
+
+
+#Centos 下安装WordPress教程
+http://baijiahao.baidu.com/s?id=1603749941618075451&wfr=spider&for=pc
+
+
+
+
+
+<?php printf( __( 'Proudly powered by %s')); ?>
