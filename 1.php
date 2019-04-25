@@ -1,2 +1,4 @@
 <?php
- echo 1123456;
+echo 1123456;
+
+phpinfo();
